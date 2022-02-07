@@ -6,4 +6,6 @@ Bài gửi cho mình một hình ảnh favicon, ban đầu thì tưởng là soi
 <br> Ta thấy thẻ href như hình -> URL của favicon là https://ctf.viblo.asia/favicon.ico ![image](https://user-images.githubusercontent.com/62832067/152736011-e84f9546-1ff7-4019-8a4c-4d5bfaf0e13e.png)
 <br> Ta có giá trị hash là: -1418078801
 ![image](https://user-images.githubusercontent.com/62832067/152736693-dbfa4938-7bc1-4a85-995e-b539519daf0d.png)
-<br> Sau đó ta sử dụng Shodan với cú pháp: http.favicon.hash:[Favicon hash here] để tìm được IP
+<br> Sau đó ta sử dụng Shodan với cú pháp: http.favicon.hash:[Favicon hash] để tìm được IP cùng đơn vị cung cấp hosting (tiên sư cái trang bắt login để search)
+![image](https://user-images.githubusercontent.com/62832067/152737155-8b821e78-dbcc-4e5f-9a51-056f3ddfd9ae.png)
+<br> Như kết quả ta có là Linode và server đặt ở Singapore -> Flag là: **Flag{Singapore_Linode}**
