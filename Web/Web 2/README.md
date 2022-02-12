@@ -4,5 +4,4 @@ Bài này bị lỗi ở phần không check giá trị số âm trong input, kh
 
 ![image](https://user-images.githubusercontent.com/62832067/153695585-aa5216bb-1469-4be1-9ab0-39c603250e6a.png)
 
-<br>
-**Flag{ch3ck_3v3rything_th3y_giv3}**
+<br>**Flag{ch3ck_3v3rything_th3y_giv3}**
